@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive landing page coffee 3D</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd_grid">
+
+                <div class="">
+                    <a href="#" class="nav_logo">coffee</a>
+                </div>
+                <!-- //nav logo -->
+
+                <div class="nav_toggle" id="nav_toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+                <!-- // nav_toggle-->
+
+                <div class="nav_menu" id="nav_menu">
+
+                    <div class="nav_close" id="nav_close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                    <!-- // nav_close-->
+
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">About</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">Blog</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- //nav_menu-->
+
+            </nav>
+        </header>
+
+        <!--===== MAIN =====-->
+        <main class="l-main">
+            <section class="home">
+                <div class="home_container bd_grid">
+                    <div class="home_img">
+                        <img  src="assets/img/img1.png" class="move" data-speed="-2" alt="">
+                        <img  src="assets/img/img2.png" class="move" data-speed="2" alt="">
+                        <img  src="assets/img/img3.png" class="move" data-speed="2" alt="">
+                        <img  src="assets/img/img4.png" class="move" data-speed="-2" alt="">
+                        <img  src="assets/img/img5.png" class="move" data-speed="-2" alt="">
+                        <img  src="assets/img/img6.png" class="move" data-speed="2" alt="">
+                    </div>
+                    <!-- // home_img-->
+
+                    <div class="home_data">
+                        <h1 class="home_title">Coffee <br>Drink 3D</h1>
+                        <p class="home_desc">let's help discover the best coffee drink <br>of the week.</p>
+                        <a href="#" class="home_btn">Get started</a>
+                    </div>
+                </div>
+                <!-- //home_container -->
+            </section>
+            <!-- //home -->
+        </main>
+        
+        <!--===== GSAP =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
